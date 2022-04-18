@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_04_17_061010) do
+ActiveRecord::Schema.define(version: 2022_04_18_021721) do
 
   create_table "task", charset: "utf8mb4", force: :cascade do |t|
     t.string "content"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2022_04_17_061010) do
     t.string "content"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "title"
   end
 
 end
